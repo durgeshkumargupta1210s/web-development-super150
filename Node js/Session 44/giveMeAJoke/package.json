@@ -1,0 +1,15 @@
+{
+  "name": "givemeajoke",
+  "version": "1.0.0",
+  "description": "This is my first Node js project",
+  "license": "ISC",
+  "author": "Durgesh Kumar Gupta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}

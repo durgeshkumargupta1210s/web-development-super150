@@ -1,0 +1,52 @@
+/* display:flex is a parent property
+    display:inline block is a child property
+    flex box child is called flex items
+    flex is one dimentional and grid is 2D
+    flex has main axis not x and y axis and it is changable according to flex direction
+    perpendicular to main axis called cross axis 
+    justify content works on main axis*/
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}   
+section{
+    height: 100vh;
+    border: 10px solid grey;
+    display: flex;
+    flex-direction:row;
+    /* flex-direction: column; */
+    /* works on main axis */
+    /* justify-content: center; */
+    /* works on cross axis */
+    /* align-items: center; */
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    /* flex-wrap stretch hone se rokta hai element ko */
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap; */
+    /* align content bich ke distance ko kam karta hai */
+    /* align-content: flex-end;
+    align-content: center; */
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    /* child property */
+    /* display: inline-block; */
+}
+#second{
+    /* jitna space available hai wotna space lega in the ratio of  */
+    flex-grow: 3;
+    flex-shrink: 2;
+    align-self: center;
+}
+#fourth{
+    flex-grow: 1;
+    /* given speed se shrink karega other ke comparision me  */
+    flex-shrink: 2;
+    align-self: flex-end;
+}

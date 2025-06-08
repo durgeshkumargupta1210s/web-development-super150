@@ -1,0 +1,15 @@
+{
+  "name": "expressbasic",
+  "version": "1.0.0",
+  "description": "I am starting express js",
+  "license": "ISC",
+  "author": "Durgesh kumar gupta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

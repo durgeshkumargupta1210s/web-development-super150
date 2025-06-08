@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <!-- form has two attribute given below -->
+     <!-- form submit karne ka tarika get and post -->
+    <!-- get-fecting data and post=sending data  -->
+    <!-- sending data to same page use #  -->
+    <!-- bydefault method get  -->
+    <!-- jab mai submit kiya or woshka method hai get to wo url me show karega  -->
+    <!-- in the link ? is called query parameter  -->
+    <!-- form ko submit karne ke liye name attribute fill hona chaiyea  -->
+    <!-- get se data bhejna secure nhi hai url me sabhi information dikh jata hai  -->
+    <!-- http://127.0.0.1:5500/super150html/forms/index.html?username=durgesh_cs23&pasword=durgesh&mailid=durgesh%40gmail.com# -->
+     <!-- post se data secure hota hai or url me nhi show hota hai  -->
+    <form action="#" method="get">
+        <input type="text" name="username" id=""> <br>
+        <input type="password" name="pasword" id=""> <br>
+        <input type="email" name="mailid" id=""> <br>
+        <button type="reset">reset</button>
+        <!-- byefault button type submit  -->
+        <button type="submit">submit</button>
+
+        <h1>Gender</h1>
+        Male :
+        <!-- bhut options me se kishi ek ko select karna hai to sabhi ka name attribute same akr do  -->
+        <input type="radio" name="X" id="">
+        Female :
+        <input type="radio" name="X" id="">
+        Others :
+        <input type="radio" name="X" id="">
+    </form>
+    <h3>pst type forrm method</h3>
+    <form action="#" method="post">
+         <!-- label li for = input ki ID always to connect both  -->
+        <label for="name">Username :</label>
+        <input type="text" name="username" id="name"> <br>
+        <input type="password" name="pasword" id=""> <br>
+        <input type="email" name="mailid" id=""> <br>
+        <button type="reset">reset</button>
+        <!-- byefault button type submit  -->
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

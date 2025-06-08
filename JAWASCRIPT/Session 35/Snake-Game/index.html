@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #121212; /* optional dark background for better contrast */
+        }
+    
+        canvas {
+            background-color: black;
+            border: 5px solid yellow;
+            border-radius: 20px;
+            box-shadow: 0 0 20px yellow, 0 0 40px gold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        canvas:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px yellow, 0 0 60px gold;
+        }
+    </style>
+    
+</head>
+<body>
+    <canvas width="1000px" height="600px"></canvas>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* selement selector */
+h1{
+    color: red;
+} 
+/* id selector */
+/* id way be same for two but we do not use it .. */
+#durgu{
+    font-size: 50px;
+    background-color: yellow;
+    border-bottom: black;
+    border-radius: 10px;
+} 
+/* class selector */
+.super{
+    color: brown;
+}  
+
+input[type="text"]{
+    background-color: powderblue;
+}
+input[type="password"]{
+    background-color: rgb(176, 230, 205);
+}
+a[href="https:// google.com"]{
+    background-color: red;
+}
+

@@ -1,0 +1,32 @@
+
+
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 400px;
+    font-size: 22px;
+    margin: 20px auto;
+    display: block;
+}
+
+button{
+    width: 120px;
+    font-size: 22px;
+    margin: 10px auto;
+    display: block;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+#list{
+    width: 500px;
+    display: flex;
+    text-align: center;
+}

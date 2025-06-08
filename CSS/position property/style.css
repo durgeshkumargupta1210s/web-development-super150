@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#static #Middle{
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative #Middle{
+    position: relative;
+    /* top: 50px;
+    left: 50px; */
+}
+#absolute{
+    position: relative;
+}
+
+#absolute #Middle{
+    position: absolute;
+    /* top: 50px;
+    left: 50px;  */
+    
+}
+#fixed #Middle{
+    position:fixed;
+    top: 50px;
+    left: 50px; 
+    
+}
+#sticky{
+      border: 1px solid red;
+      height: 500px;
+}
+#sticky #Middle{
+    position:sticky;
+    top: 50px;
+    left: 50px; 
+    
+}
+/* in case of static offset does not work
+  offset=(left,right,top,buttom) 
+  original position se move hua hai 
+  relative accept offset from its original position */
+
+/* VVI:-  absolute offset dependds on recently positioned parent */
+/* fixed- offset works accordingly to body + absolute 50% */
+/* sticy=relative and fixed extra space hai to relative otherwise fixed
+ parent me gagah hai to fixed ki tarah act karega nhi to relative ki tarah act karega  */

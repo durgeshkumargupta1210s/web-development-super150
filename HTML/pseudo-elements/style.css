@@ -1,0 +1,18 @@
+h1::first-line{
+    color:rgb(244, 128, 255);
+    font-size: 30px;
+    font-family: cursive;
+}
+
+p::first-letter{
+    font-size: 100px;
+    color: green;
+}
+h4::after{
+    content:"from coding block";
+}
+
+h4::before{
+    content: "hello guys";
+}
+/* the value of a is between 0-1 and it is called alpha chhanel */ 

@@ -1,0 +1,10 @@
+/* ul>li{
+    color: red;
+    font-size: 50px;
+    does not follow inheritence
+    border: solid black 5px;
+    } */
+
+ul>li{
+    font-size: 2em;
+}   

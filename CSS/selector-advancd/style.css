@@ -1,0 +1,25 @@
+div{
+    background-color: yellow;
+}
+/* <!-- seudoclass hover --> */
+div:hover{
+    background-color: green;
+}
+/* seudo class used in anchor tag or input  */
+input{
+    background-color: red;
+}
+input:focus{
+        background-color: white;
+        font-size: 100px;
+}
+a{
+    color:black;
+    font-size: 100px;
+}
+a:active{
+    color:pink;
+}
+a:visited{
+        color: aqua;
+}

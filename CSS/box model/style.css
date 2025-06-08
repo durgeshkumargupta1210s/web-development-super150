@@ -1,0 +1,38 @@
+*{ 
+    /* by defualt all broswer gave some padding and margin for all elements */
+    /* so went we start css then first we write margin and padding zero */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+  /* box-sizing: content-box;  is allowed to expend*/
+
+
+}
+
+/* all the properties of block model are only for block model not for inline elements */
+span{  
+    /* display: block; it is not a fisable solution */
+    /* display: none; */
+    /* visibility: hidden; */ 
+    /*     display: none;  vs visibility: hidden; */
+    /* display: none; */
+    visibility: hidden;
+    /* display: inline-block; */
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid;
+}
+
+
+div{  
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px;
+    border: 10px solid;
+}
