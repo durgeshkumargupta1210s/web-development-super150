@@ -24,7 +24,7 @@ app.get('/random', (req, res) => {
 // show your tast
 
 app.get('/todo',(req,res)=>{
-       res.render("todos",{todos})
+       res.render("todos",{todos}) 
 })
 
 // Start the server
