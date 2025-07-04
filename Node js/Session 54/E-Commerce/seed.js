@@ -2,7 +2,7 @@
 
 const mongoose=require('mongoose')
 
-const Product=require('./Models/Project')
+const Product=require('./Models/Product')
 
 const products=[
     {

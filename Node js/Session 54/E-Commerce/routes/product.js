@@ -4,7 +4,7 @@ const express=require('express')
 
 const router=express.Router()// mini instance
 
-const Product=require('../Models/Project')
+const Product=require('../Models/Product')
 
 
 router.get('/products', async (req,res)=>{
