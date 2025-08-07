@@ -11,7 +11,14 @@ const userSchema=new mongoose.Schema({
     role:{
         type:String,
         required:true
-    }
+    },
+    // cart may have the ids of multiple products so it will be array
+    cart:[
+        {
+           type:mongoose.Schema.Types.ObjectId,
+           ref:'Product'
+        }
+    ]
 
 });
 

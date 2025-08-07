@@ -17,6 +17,9 @@ const productRoutes=require('./routes/product')
 const reviewRoutes=require('./routes/review')
 // requiring authorisation routes
 const authRoutes=require("./routes/auth")
+// requiring Carts route
+const cartRoutes=require('./routes/cart')
+
 // for message popup
 const flash=require('connect-flash')
 // for session storage
@@ -65,6 +68,7 @@ passport.use(new LocalStrategy(User.authenticate()));
 app.use(productRoutes);// har incoming request ke liye run kare
 app.use(reviewRoutes);
 app.use(authRoutes);
+app.use(cartRoutes);
 
 
 
