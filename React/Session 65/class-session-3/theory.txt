@@ -1,0 +1,27 @@
+props : properties just like argument
+
+return ke andar agar JS code likhna h toh we write inside {}
+
+
+props are immutable 
+
+states are mutable
+states -> variable -> mutable
+
+
+variable ke change hone se react reRender nhi hota
+to rerender we use hooks
+
+Hooks: inbuilt function given by react
+1. useState() : jis variable ko change karenge to component rerender hota h
+we have to import, useState is named export
+import {useState} from 'react'
+let [state, function] = useState(initialState)
+state just like variable
+const [naam,setNaam] = useState("Samarth");
+setNaam -> function use for state change
+
+
+
+batching : task asynchronous + one time render
+kitne baar bhi useState karo one time render hota
